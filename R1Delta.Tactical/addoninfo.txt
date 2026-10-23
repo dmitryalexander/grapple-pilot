@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+ "addonSteamAppID" "1454890"
+ "addontitle" "Tactical"
+ "addonversion" "0.1.0-prototype"
+ "addonauthor" "Tactical contributors"
+ "addondescription" "Selectable Grapple tactical with universal powerslide. Stock Cloak, Stim and Radar Pulse preserved."
+}

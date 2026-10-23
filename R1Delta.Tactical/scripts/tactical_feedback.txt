@@ -1,0 +1,12 @@
+"Tactical.recharge"
+{
+ "volume" "0.08"
+ "pitch" "85"
+ "wave" "tactical/r2/grapple_reset_2ch_v1_01.wav"
+}
+"Tactical.ready"
+{
+ "volume" "0.16"
+ "pitch" "110"
+ "wave" "tactical/r2/grapple_reset_2ch_v1_01.wav"
+}

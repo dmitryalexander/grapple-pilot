@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    "exact payload inventory and SHA-256",
+    "logical fourth item, native carrier mapping, exact stock fallback and sound manifest preservation",
+    "four tactical registrations; exact preservation of all other item/weapon/model rules; five native UI slots",
+    "persistence schema has exactly one appended ID; all stock IDs/schema entries preserved",
+    "Squirrel literal/delimiter and packaged-include checks; not native compilation",
+    "native tactical bridge/selected-slot authority; no stock Stim, gun, binding or model overrides; no fabricated ground/jump reset",
+    "no center recharge rails; selected-only native HUD icon with stock restoration; 14 percent lower impulse default",
+    "imported WAV headers and audio-event source paths",
+    "ZIP CRC/payload hashes and no tools/research in package"
+  ],
+  "payload_files": 151,
+  "installed": false,
+  "game_launched": false,
+  "native_compilation": false,
+  "gameplay_verified": false,
+  "pwsh_installer": {
+    "tests": [
+      "clean install preserves settings/profile/addonlist/other addons; all installed payload hashes match",
+      "existing destination refused",
+      "WhatIf writes nothing",
+      "R1Delta.Cooldown refused and preserved",
+      "R1Delta.Powder refused and preserved",
+      "R1Delta.Sliding refused and preserved",
+      "R1Delta.PilotMovement refused and preserved",
+      "scripts/vscripts/_items.nut overlap refused",
+      "scripts/vscripts/_pdef.nut overlap refused",
+      "scripts/game_sounds_manifest.txt overlap refused",
+      "scripts/vscripts/_menu_callbacks.nut overlap refused",
+      "scripts/weapons/mp_ability_sonar.txt overlap refused",
+      "wrong game refused",
+      "tampered payload refused before writes"
+    ],
+    "powershell": "7.6.5",
+    "passed": true
+  },
+  "windows_installer": {
+    "powershell": "5.1.26100.9711",
+    "tests": [
+      "clean install preserves settings/profile/addonlist/other addons; all installed payload hashes match",
+      "existing destination refused",
+      "WhatIf writes nothing",
+      "R1Delta.Cooldown refused and preserved",
+      "R1Delta.Powder refused and preserved",
+      "R1Delta.Sliding refused and preserved",
+      "R1Delta.PilotMovement refused and preserved",
+      "scripts/vscripts/_items.nut overlap refused",
+      "scripts/vscripts/_pdef.nut overlap refused",
+      "scripts/game_sounds_manifest.txt overlap refused",
+      "scripts/vscripts/_menu_callbacks.nut overlap refused",
+      "scripts/weapons/mp_ability_sonar.txt overlap refused",
+      "wrong game refused",
+      "tampered payload refused before writes"
+    ],
+    "passed": true
+  }
+}

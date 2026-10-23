@@ -1,0 +1,6 @@
+"SplineRope"
+{
+ "$basetexture" "cable/tactical_grapple_black"
+ "$color" "[0.025 0.025 0.025]"
+ "$catmullRomSpline" "1"
+}
