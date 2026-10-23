@@ -1,3 +1,4 @@
 * text=auto
+R1Delta.Tactical/** -text
 *.wav binary
 *.vtf binary
